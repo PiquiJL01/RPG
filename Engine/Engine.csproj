@@ -41,9 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ability.cs" />
     <Compile Include="Dungeon.cs" />
     <Compile Include="Equipment.cs" />
+    <Compile Include="Healing.cs" />
     <Compile Include="HealingItem.cs" />
+    <Compile Include="ID.cs" />
     <Compile Include="InventoryItem.cs" />
     <Compile Include="Item.cs" />
     <Compile Include="LivingCreature.cs" />
@@ -53,8 +56,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RNG.cs" />
     <Compile Include="Attack.cs" />
-    <Compile Include="SafeZone.cs" />
-    <Compile Include="World.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

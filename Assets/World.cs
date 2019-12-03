@@ -3,15 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Engine;
 
-namespace Engine
+namespace Assets
 {
     public class World
     {
-        private static readonly List<Attack> Attacks = new List<Attack>();
+        private static readonly List<Ability> Abilities = new List<Ability>();
         private static readonly List<Location> Locations = new List<Location>();
         private static readonly List<Dungeon> Dungeons = new List<Dungeon>();
-        private static readonly List<Item> Items = new List<Item>();
+        private static readonly List<HealingItem> HealingItems = new List<HealingItem>();
         private static readonly List<Equipment> Equipments = new List<Equipment>();
         private readonly List<Monster> BaseMonsters = new List<Monster>();
 
@@ -30,7 +31,7 @@ namespace Engine
 
         private void SetBaseMonsters()
         {
-            Monster Slime = new Monster(MonsterID.Slime, "Slime", "Slimes", 1, 1, 10, 10, 2,2,2,2,2,2,2,2,2,2, 20);
+            Monster Slime = new Slime();
 
             //add attacks
 
@@ -44,12 +45,10 @@ namespace Engine
             Location Bridge = new Location(LocationID.Bridge, "Bridge", "Bridge from the Town of Beginings to the Spider's Forest");
             //Dungeon SpidersForest = new Dungeon((int)Sites.SpiderForest, "Spider's Forest", "Self-Explanatory", 1, 3, 1,, Dungeon.Up, true);
 
-            Home.LocationNorth = TownOfBeginnings;
+            Home.SetAdjacent(Direction.North, TownOfBeginnings);
 
-            TownOfBeginnings.LocationSouth = Home;
-            TownOfBeginnings.LocationEast = Bridge;
+            TownOfBeginnings.SetAdjacent(Direction.East, Bridge);
 
-            Bridge.LocationWest = TownOfBeginnings;
             //Bridge.LocationEast = SpidersForest;
 
             //SpidersForest.LocationWest = Bridge;
@@ -62,18 +61,18 @@ namespace Engine
 
         private void SetItems()
         {
-            Item Potion = new HealingItem(ItemID.Potion, "Potion", "potions", 20);
+            Potion potion = new Potion();
 
-            Items.Add(Potion);
+            HealingItems.Add(potion);
         }
 
-        public Attack AttackByID(AttackID id)
+        public Attack AttackByID(AbilityID id)
         {
-            foreach (Attack attack in Attacks)
+            foreach (Ability ability in Abilities)
             {
-                if (attack.ID == id)
+                if (ability.ID == id)
                 {
-                    return attack;
+                    return ability;
                 }
             }
 
@@ -105,20 +104,6 @@ namespace Engine
 
             return null;
         }
-    }
-
-    public enum Element
-    {
-        Nill,
-        Fire,
-        Water,
-        Earth,
-        Wind
-    }
-
-    public enum EffectID
-    {
-        Stun
     }
 }
 

@@ -80,6 +80,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Assets\Assets.csproj">
+      <Project>{7086b676-4641-419e-b048-3074d058e7ec}</Project>
+      <Name>Assets</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Engine\Engine.csproj">
       <Project>{8645db53-9742-463f-a85f-e2205b1a13cc}</Project>
       <Name>Engine</Name>

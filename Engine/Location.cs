@@ -25,13 +25,30 @@ namespace Engine
             IsStore = isStore;
         }
 
-        public void SetAdjacents(Location north, Location south, Location east, Location west)
+        public void SetAdjacent(Direction direction, Location adjacent, bool SetBoth = true)
         {
-            Adjacents[Direction.North] = north;
-            Adjacents[Direction.South] = south;
-            Adjacents[Direction.East] = east;
-            Adjacents[Direction.West] = west;
+            Adjacents[direction] = adjacent;
 
+            if (adjacent != null && SetBoth)
+            {
+                switch (direction)
+                {
+                    case Direction.North:
+                        Adjacents[direction].SetAdjacent(Direction.South, this, false);
+                        break;
+                    case Direction.South:
+                        Adjacents[direction].SetAdjacent(Direction.North, this, false);
+                        break;
+                    case Direction.East:
+                        Adjacents[direction].SetAdjacent(Direction.West, this, false);
+                        break;
+                    case Direction.West:
+                        Adjacents[direction].SetAdjacent(Direction.East, this, false);
+                        break;
+                    default:
+                        break;
+                }
+            }
         }
 
         public Location AdjacentToThe(Direction direction)
@@ -39,21 +56,4 @@ namespace Engine
             return Adjacents[direction];
         }
     }
-
-    public enum Direction
-    {
-        North,
-        South,
-        East,
-        West
-    }
-
-    public enum LocationID
-    {
-        nill,
-        Home,
-        TownOfBeginnings,
-        Bridge,
-        SpiderForest
-    } 
 }

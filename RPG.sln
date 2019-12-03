@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.168
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPG", "RPG\RPG.csproj", "{F7C56920-7142-49E9-8025-D70A0A12758E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine", "Engine\Engine.csproj", "{8645DB53-9742-463F-A85F-E2205B1A13CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assets", "Assets\Assets.csproj", "{7086B676-4641-419E-B048-3074D058E7EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{8645DB53-9742-463F-A85F-E2205B1A13CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8645DB53-9742-463F-A85F-E2205B1A13CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8645DB53-9742-463F-A85F-E2205B1A13CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7086B676-4641-419E-B048-3074D058E7EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7086B676-4641-419E-B048-3074D058E7EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7086B676-4641-419E-B048-3074D058E7EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7086B676-4641-419E-B048-3074D058E7EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

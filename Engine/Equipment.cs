@@ -44,22 +44,4 @@ namespace Engine
             player.SetEquipment(this);
         }
     }
-
-    public enum EquipmentID
-    {
-        Sword
-    }
-
-    public enum EquipmentType
-    {
-        Hat,
-        Necklace,
-        Shirt,
-        ArmorPlate,
-        ArmorPants,
-        Shoes,
-        Belt,
-        HandShoes,
-        Ring
-    }
 }

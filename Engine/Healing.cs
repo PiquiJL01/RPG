@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace Engine
 {
-    class SafeZone : Location
+    interface Healing
     {
-        public SafeZone(LocationID id, string name, string description):base(id, name, description)
-        {
-
-        }
+        int Heal(LivingCreature target);
     }
 }

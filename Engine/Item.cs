@@ -34,11 +34,4 @@ namespace Engine
 
         public abstract void Use(LivingCreature Target);
     }
-
-    public enum ItemID
-    {
-        Potion,
-        Sword,
-        AdventurerPass
-    }
 }

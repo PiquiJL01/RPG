@@ -1,0 +1,5 @@
+C:\Users\inmun\source\repos\PiquiJL01\RPG\Assets\obj\Debug\netstandard2.0\Assets.csprojAssemblyReference.cache
+C:\Users\inmun\source\repos\PiquiJL01\RPG\Assets\obj\Debug\netstandard2.0\Assets.Properties.Resources.resources
+C:\Users\inmun\source\repos\PiquiJL01\RPG\Assets\obj\Debug\netstandard2.0\Assets.csproj.GenerateResource.cache
+C:\Users\inmun\source\repos\PiquiJL01\RPG\Assets\obj\Debug\netstandard2.0\Assets.AssemblyInfoInputs.cache
+C:\Users\inmun\source\repos\PiquiJL01\RPG\Assets\obj\Debug\netstandard2.0\Assets.AssemblyInfo.cs

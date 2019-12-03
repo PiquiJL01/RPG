@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Engine
 {
-    public class Monster : LivingCreature
+    public abstract class Monster : LivingCreature
     {
         public readonly MonsterID ID;
         public readonly string PluralName;
@@ -30,10 +30,5 @@ namespace Engine
         {
             base.LevelUp(level);
         }
-    }
-
-    public enum MonsterID
-    {
-        Slime
     }
 }

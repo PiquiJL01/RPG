@@ -11,3 +11,10 @@ C:\Users\inmun\source\repos\RPG\RPG\obj\Debug\RPG.csproj.CopyComplete
 C:\Users\inmun\source\repos\RPG\RPG\obj\Debug\RPG.exe
 C:\Users\inmun\source\repos\RPG\RPG\obj\Debug\RPG.pdb
 C:\Users\inmun\source\repos\RPG\RPG\obj\Debug\RPG.Form1.resources
+C:\Users\inmun\Source\Repos\PiquiJL01\RPG\RPG\obj\Debug\RPG.csprojAssemblyReference.cache
+C:\Users\inmun\Source\Repos\PiquiJL01\RPG\RPG\obj\Debug\RPG.exe.config
+C:\Users\inmun\Source\Repos\PiquiJL01\RPG\RPG\obj\Debug\RPG.Form1.resources
+C:\Users\inmun\Source\Repos\PiquiJL01\RPG\RPG\obj\Debug\RPG.Properties.Resources.resources
+C:\Users\inmun\Source\Repos\PiquiJL01\RPG\RPG\obj\Debug\RPG.csproj.GenerateResource.cache
+C:\Users\inmun\Source\Repos\PiquiJL01\RPG\RPG\obj\Debug\RPG.exe
+C:\Users\inmun\Source\Repos\PiquiJL01\RPG\RPG\obj\Debug\RPG.pdb

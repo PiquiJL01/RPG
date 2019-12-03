@@ -6,18 +6,12 @@ using System.Threading.Tasks;
 
 namespace Engine
 {
-    public class HealingItem : Item
+    public abstract class HealingItem : Item, Healing
     {
-        public readonly int HealthPointsRecovery;
-
-        public HealingItem(ItemID id, string name, string namePlural, int healthPointsRecovery = 0) : base(id, name, namePlural)
+        public HealingItem(ItemID id, string name, string namePlural) : base(id, name, namePlural)
         {
-            HealthPointsRecovery = healthPointsRecovery;
         }
 
-        public override void Use(LivingCreature Target)
-        {
-            Target.Heal(HealthPointsRecovery);
-        }
+        public abstract int Heal(LivingCreature target);
     }
 }

@@ -4,3 +4,8 @@ C:\Users\inmun\source\repos\RPG\Engine\obj\Debug\Engine.csprojAssemblyReference.
 C:\Users\inmun\source\repos\RPG\Engine\obj\Debug\Engine.csproj.CoreCompileInputs.cache
 C:\Users\inmun\source\repos\RPG\Engine\obj\Debug\Engine.dll
 C:\Users\inmun\source\repos\RPG\Engine\obj\Debug\Engine.pdb
+C:\Users\inmun\Source\Repos\PiquiJL01\RPG\Engine\bin\Debug\Engine.dll
+C:\Users\inmun\Source\Repos\PiquiJL01\RPG\Engine\bin\Debug\Engine.pdb
+C:\Users\inmun\Source\Repos\PiquiJL01\RPG\Engine\obj\Debug\Engine.csprojAssemblyReference.cache
+C:\Users\inmun\Source\Repos\PiquiJL01\RPG\Engine\obj\Debug\Engine.dll
+C:\Users\inmun\Source\Repos\PiquiJL01\RPG\Engine\obj\Debug\Engine.pdb
