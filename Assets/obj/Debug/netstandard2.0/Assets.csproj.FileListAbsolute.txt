@@ -3,3 +3,11 @@ C:\Users\inmun\source\repos\PiquiJL01\RPG\Assets\obj\Debug\netstandard2.0\Assets
 C:\Users\inmun\source\repos\PiquiJL01\RPG\Assets\obj\Debug\netstandard2.0\Assets.csproj.GenerateResource.cache
 C:\Users\inmun\source\repos\PiquiJL01\RPG\Assets\obj\Debug\netstandard2.0\Assets.AssemblyInfoInputs.cache
 C:\Users\inmun\source\repos\PiquiJL01\RPG\Assets\obj\Debug\netstandard2.0\Assets.AssemblyInfo.cs
+C:\Users\Jose Gil\source\repos\PiquiJL01\RPG\Assets\obj\Debug\netstandard2.0\Assets.csproj.AssemblyReference.cache
+C:\Users\Jose Gil\source\repos\PiquiJL01\RPG\Assets\obj\Debug\netstandard2.0\Assets.Properties.Resources.resources
+C:\Users\Jose Gil\source\repos\PiquiJL01\RPG\Assets\obj\Debug\netstandard2.0\Assets.csproj.GenerateResource.cache
+C:\Users\Jose Gil\source\repos\PiquiJL01\RPG\Assets\obj\Debug\netstandard2.0\Assets.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jose Gil\source\repos\PiquiJL01\RPG\Assets\obj\Debug\netstandard2.0\Assets.AssemblyInfoInputs.cache
+C:\Users\Jose Gil\source\repos\PiquiJL01\RPG\Assets\obj\Debug\netstandard2.0\Assets.AssemblyInfo.cs
+C:\Users\Jose Gil\source\repos\PiquiJL01\RPG\Assets\obj\Debug\netstandard2.0\Assets.csproj.CoreCompileInputs.cache
+C:\Users\Jose Gil\source\repos\PiquiJL01\RPG\Assets\obj\Debug\netstandard2.0\Assets.sourcelink.json

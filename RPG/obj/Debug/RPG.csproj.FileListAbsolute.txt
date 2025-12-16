@@ -18,3 +18,10 @@ C:\Users\inmun\Source\Repos\PiquiJL01\RPG\RPG\obj\Debug\RPG.Properties.Resources
 C:\Users\inmun\Source\Repos\PiquiJL01\RPG\RPG\obj\Debug\RPG.csproj.GenerateResource.cache
 C:\Users\inmun\Source\Repos\PiquiJL01\RPG\RPG\obj\Debug\RPG.exe
 C:\Users\inmun\Source\Repos\PiquiJL01\RPG\RPG\obj\Debug\RPG.pdb
+C:\Users\Jose Gil\source\repos\PiquiJL01\RPG\RPG\obj\Debug\RPG.csproj.AssemblyReference.cache
+C:\Users\Jose Gil\source\repos\PiquiJL01\RPG\RPG\obj\Debug\RPG.Form1.resources
+C:\Users\Jose Gil\source\repos\PiquiJL01\RPG\RPG\obj\Debug\RPG.Properties.Resources.resources
+C:\Users\Jose Gil\source\repos\PiquiJL01\RPG\RPG\obj\Debug\RPG.csproj.GenerateResource.cache
+C:\Users\Jose Gil\source\repos\PiquiJL01\RPG\RPG\obj\Debug\RPG.csproj.CoreCompileInputs.cache
+C:\Users\Jose Gil\source\repos\PiquiJL01\RPG\RPG\obj\Debug\RPG.exe
+C:\Users\Jose Gil\source\repos\PiquiJL01\RPG\RPG\obj\Debug\RPG.pdb

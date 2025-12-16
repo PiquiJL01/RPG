@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Assets")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f24351a6621293560f3cd39ad170d1e271e6d2d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Assets")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Assets")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
